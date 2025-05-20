@@ -1,0 +1,45 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+}
+
+.cont{
+    width: 50%;
+    height: 50vh;
+    border: 1px solid black;
+    border-radius: 20px;
+    transform: translate(50%,50%);
+    padding: 4px;
+}
+
+p{
+    font-size: x-large;
+    text-align: center;
+    margin-top: 10px;
+    font-weight: 700;
+}
+
+#colorinsyd{
+    color: goldenrod;
+    font-size: xx-large;
+}
+#coloroutsyd{
+    color: goldenrod;
+    font-size: xx-large;
+}
+
+#changeColor{
+    font-size: larger;
+    margin: 25% 40%;
+    padding: 15px;
+    border-radius: 10px;
+    border: 1px outset black;
+    font-weight: 900;
+    cursor: pointer;
+}
